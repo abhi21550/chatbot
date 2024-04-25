@@ -9,7 +9,7 @@ from langchain.chains import RetrievalQA
 from langchain import HuggingFaceHub
 import chainlit as cl
 
-os.environ['HUGGING_FACE_API_KEY'] = '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'
+os.environ['HUGGING_FACE_API_KEY'] = 
 
 path=input("Enter pdf:")
 loader=PyPDFLoader(path)
